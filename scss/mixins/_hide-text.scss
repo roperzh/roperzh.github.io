@@ -1,0 +1,12 @@
+// -------------------------------------------
+//   Hide Text
+// -------------------------------------------
+
+@mixin hide-text() {
+  vertical-align: text-top;
+  text-indent: -1000px;
+  overflow: hidden;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+}

@@ -1,0 +1,109 @@
+// -------------------------------------------
+//   Intro Layout
+// -------------------------------------------
+
+.intro-layout {
+  margin-top: 17%;
+  @include font-with-fallback($font-secondary);
+
+  h1 {
+    margin: 0 0 15px 0;
+    width: 70%;
+
+    font-size: 70px;
+    line-height: 1;
+    letter-spacing: 1.3px;
+    text-indent: 35px;
+  }
+
+  h2 {
+    width: 85%;
+
+    font-size: 45px;
+    letter-spacing: 1.4px;
+    line-height: .9;
+    text-indent: 55px;
+  }
+
+  .heading {
+    padding: 5px 0;
+    text-transform: uppercase;
+
+    background: $dark-box-background;
+    color: $primary-text-color-o;
+  }
+
+  .horizontal-navigation {
+    margin: 10px 35px;
+  }
+
+  p {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 15px;
+
+    font-size: 25px;
+    font-family: $font-base;
+    line-height: 30px;
+
+    a {
+      color: $tertiary-text-color;
+    }
+  }
+
+
+  @include breakpoint-for(standard) {
+    text-align: center;
+
+    h1, h2 {
+      width: 100%;
+
+      text-indent: 0;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    .heading {
+      padding: 12px 0;
+    }
+
+    .horizontal-navigation {
+      margin-top: 35px;
+
+      li {
+        float: none;
+        display: block;
+        font-size: 25px;
+        margin: 8px 0;
+
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @include breakpoint-for(small) {
+    margin-top: 30%;
+
+    h1 {
+      font-size: 33px;
+    }
+
+    h2 {
+      font-size: 23px;
+    }
+
+    .horizontal-navigation {
+      li {
+        font-size: 22px;
+      }
+    }
+  }
+}

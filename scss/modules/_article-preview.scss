@@ -1,0 +1,40 @@
+// -------------------------------------------
+//   Article Preview
+// -------------------------------------------
+
+.article-preview {
+  color: $primary-text-color;
+
+  figure {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+
+      vertical-align: bottom;
+    }
+  }
+
+  .article-content {
+    padding: 10px;
+
+
+    .heading, p {
+      margin-bottom: 10px;
+      text-transform: none;
+    }
+
+    .heading {
+      border-bottom: 1px transparent $default-border-color;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  footer {
+    padding: 10px;
+  }
+}

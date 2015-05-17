@@ -1,0 +1,35 @@
+// --------------------------------------------------
+//   Colors
+// --------------------------------------------------
+
+// Base colors (http://chir.ag/projects/name-that-color)
+// please keep the colors in alphabetical order
+
+$alabaster:  #F7F7F7;
+$black:      #000000;
+$gold:       #C5A200;
+$mine-shaft: #222222;
+$limeade:    #80BD01;
+$scarlet:    #FF1A15;
+$silver:     #999999;
+$thunder:    #362F2F;
+$white:      #FFFFFF;
+
+/* Typography */
+$primary-text-color: $thunder;
+$primary-text-color-o: $white;
+
+$secondary-text-color: $silver;
+
+$tertiary-text-color: $limeade;
+
+$alert-text-color: $scarlet;
+
+$contrast-text-color: $limeade;
+
+/* Sections & Modules */
+$default-box-background: $mine-shaft;
+$dark-box-background: $mine-shaft;
+$light-box-background: $silver;
+
+$default-border-color: rgba($limeade, 0.5);

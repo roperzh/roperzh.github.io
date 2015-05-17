@@ -1,0 +1,42 @@
+// -------------------------------------------
+//   Defaults
+//     -> Base styles
+// -------------------------------------------
+
+// Apply a natural box layout model to all elements
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+
+  font-family: $font-base;
+  font-smoothing: antialiased;
+}
+
+@include scrollbar(0, transparent, transparent );
+
+main[role="main"] {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  line-height: 18px;
+}
+
+figure {
+  display: inline-block;
+  margin: 0;
+}

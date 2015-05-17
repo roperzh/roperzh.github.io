@@ -1,0 +1,15 @@
+// -------------------------------------------
+//   Article base
+// -------------------------------------------
+
+.article {
+  .heading {
+    a {
+      color: inherit;
+    }
+  }
+
+  a {
+    color: $tertiary-text-color;
+  }
+}

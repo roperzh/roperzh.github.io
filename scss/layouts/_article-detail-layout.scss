@@ -1,0 +1,18 @@
+// -------------------------------------------
+//   Article Detail Layout
+// -------------------------------------------
+
+.article-detail-layout {
+
+  figure {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  p, .quote {
+    margin: 15px 0;
+  }
+}

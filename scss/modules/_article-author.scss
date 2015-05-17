@@ -1,0 +1,19 @@
+// -------------------------------------------
+//   Article author
+// -------------------------------------------
+
+.article-author {
+  font-size: 13px;
+
+  a {
+    &:before {
+      content: "by ";
+      color: inherit;
+    }
+
+    &:after {
+      content: " –";
+      color: inherit;
+    }
+  }
+}

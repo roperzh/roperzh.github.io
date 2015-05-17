@@ -1,0 +1,30 @@
+// -------------------------------------------
+//   Buttons
+// -------------------------------------------
+
+.button {
+  padding: 5px 25px;
+  display: inline-block;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+
+  &.button-default {
+    background: $primary-text-color;
+    color: $primary-text-color-o;
+
+    &:active {
+      background: darken($primary-text-color, 10%);
+    }
+  }
+
+  &.button-featured {
+    background: $tertiary-text-color;
+    color: $primary-text-color-o;
+
+    &:active {
+      background: darken($tertiary-text-color, 10%);
+    }
+  }
+}
