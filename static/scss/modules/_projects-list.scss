@@ -1,0 +1,73 @@
+// -------------------------------------------
+//   Projects List
+// -------------------------------------------
+
+.projects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  > li {
+    margin-bottom: 35px;
+    font-size: 14px;
+  }
+
+  .caption {
+    display: block;
+    margin-bottom: 5px;
+
+    span {
+      color: $primary-text-color;
+
+      &:after {
+        content: " / ";
+        color: $tertiary-text-color;
+      }
+
+      &:last-child:after {
+        content: "";
+      }
+    }
+  }
+
+  img {
+    display: block;
+    width: 80%;
+    margin-bottom: 15px;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 5px;
+    color: $tertiary-text-color;
+
+    .icon-link {
+      vertical-align: middle;
+
+      svg {
+        transform: scale(0.5);
+
+        path {
+          fill: $tertiary-text-color;
+        }
+      }
+    }
+  }
+
+  @include breakpoint-for(small) {
+    > li {
+      width: 50%;
+    }
+  }
+
+  @include breakpoint-for(extrasmall) {
+    > li {
+      width: 100%;
+    }
+
+    img {
+      display: none
+    }
+  }
+
+}

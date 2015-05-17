@@ -1,0 +1,24 @@
+<li class="three columns">
+  <h3 class="heading heading-four">{{ .title }}</h3>
+
+  {{ if .img }}
+    <img src="{{ .img }}"
+         srcset="/build/img/dummy.gif 1w, {{ .img }} 200w"
+         sizes="(max-width: 767px) 1px, 200px"
+         alt="{{ .title }} project logo"
+    >
+  {{ end }}
+
+  <p class="caption">
+    {{ range .langs }}
+      <span>{{ . }}</span>
+    {{ end }}
+  </p>
+
+  <p>{{ .description }}.  {{ if .owner }} - {{ .owner }} {{ end }}</p>
+
+  <a href="{{ .url }}" target="_blank">
+    <i class="icon-link" data-grunticon-embed></i>
+    Visit
+  </a>
+</li>

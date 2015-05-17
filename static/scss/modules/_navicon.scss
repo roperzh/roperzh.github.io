@@ -1,0 +1,79 @@
+// -------------------------------------------
+//   Animated menu togger
+// -------------------------------------------
+
+.navicon {
+  /* Local variables */
+
+  $delay:          .2s;
+  $duration:       .4s;
+  $angle:          45deg;
+  $bar-separation: 7px;
+  $bar-width:      22px;
+  $bar-height:     2px;
+  $timing:         cubic-bezier(.3, .9, .4, 1);
+
+  /* Styles */
+
+  position: relative;
+  display:  inline-block;
+  width: $bar-width;
+  height: 3*$bar-height + 2*$bar-separation;
+  z-index: 9999;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  span {
+    margin: 0 auto;
+    position: absolute;
+    top: $bar-separation;
+    width: $bar-width;
+    height: $bar-height;
+    background-color: $black;
+    display: block;
+    transition-timing-function: $timing;
+
+    &:first-child {
+      margin-top: -$bar-separation;
+    }
+
+    &:last-child {
+      margin-top: $bar-separation;
+    }
+  }
+
+  &.navicon-animated {
+    span {
+      &:nth-child(2) {
+        transition-duration: 0s;
+        transition-delay: $delay;
+      }
+
+      &:first-child, &:last-child {
+        transition-property: margin, transform;
+        transition-duration: $duration;
+        transition-delay: $delay, 0;
+      }
+    }
+
+    &.active {
+      span {
+        &:nth-child(2) {
+          opacity: 0;
+          transition-delay: 0s;
+        }
+
+        &:first-child {
+          margin-top: 0;
+          transform: rotate($angle);
+          transition-delay: 0, $delay;
+        }
+        &:last-child {
+          margin-top: 0;
+          transform: rotate(-$angle);
+          transition-delay: 0, $delay;
+        }
+      }
+    }
+  }
+}

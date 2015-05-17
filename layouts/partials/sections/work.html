@@ -1,0 +1,13 @@
+<section class="content grid">
+
+  <ul class="projects-list">
+    {{ range $.Site.Data.projects.vendor }}
+      {{ partial "project.html" . }}
+    {{ end }}
+
+    {{ range $.Site.Data.projects.personal }}
+       {{ partial "project.html" . }}
+    {{ end }}
+  </ul>
+
+</section>

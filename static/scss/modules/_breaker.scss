@@ -1,0 +1,35 @@
+// -------------------------------------------
+//   Breaker
+// -------------------------------------------
+
+.breaker {
+
+  overflow: hidden;
+  text-align: center;
+
+  .breaker-text {
+    display: inline-block;
+    padding: 0 15px;
+    position: relative;
+
+    font-style: italic;
+
+    &:before, &:after {
+      content: "";
+      background: #ddd;
+      display: block;
+      height: 1px;
+      position: absolute;
+      top: 50%;
+      width: 400%;
+    }
+
+    &:before {
+      right: 100%;
+    }
+
+    &:after {
+      left: 100%;
+    }
+  }
+}

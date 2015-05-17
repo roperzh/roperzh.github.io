@@ -1,0 +1,39 @@
+<div class="content grid">
+  <article class="about-page-layout">
+    <section class="five columns hide-small iamge-wrapper">
+      <img src="/build/img/about-me.jpg">
+    </section>
+
+    <section class="article-content seven columns mobile-full-width">
+      <h2 class="heading heading-three">About Me</h2>
+
+      <p>I'm above all things a Front End Developer (HTML, CSS, JavaScript) with a focus on scalable and performant user interfaces. Also I'm experienced with Back End tasks, working with Ruby and Ruby frameworks based on rack ( Rails, Sinatra, Cuba). Before starting my freelancing career I was an employee in different companies in Tucuman, all of which work with web technologies.</p>
+
+      <p>I'm passionate about web standards and obsessive about using the correct tool for each problem.</p>
+
+      <p>I also have a little experience with other technologies like PHP, Go and Node.js that I had used for personal projects, only for fun.</p>
+
+    </section>
+
+
+    <ul class="timeline">
+      {{ range $.Site.Data.timeline }}
+        <li class="three columns mobile-full-width">
+          <h3 class="heading heading-four">{{ .title }}</h3>
+          <ul class="sub-list">
+
+            {{ range .items }}
+              <li>
+                <h5>{{ .title }}</h5>
+                <p>{{ .description }}</p>
+              </li>
+            {{ end }}
+
+          </ul>
+        </li>
+      {{ end }}
+
+    </ul>
+
+  </article>
+</div>

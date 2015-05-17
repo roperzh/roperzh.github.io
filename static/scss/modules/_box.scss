@@ -1,0 +1,23 @@
+// -------------------------------------------
+//   Box
+// -------------------------------------------
+
+.box {
+
+  /* Local Variables */
+  $box-dimentions: 35px;
+
+  /* Styles */
+  width: $box-dimentions;
+  height: $box-dimentions;
+  display: inline-block;
+
+  text-align: center;
+  line-height: $box-dimentions;
+
+  background: $default-box-background;
+
+  .box-content {
+    vertical-align: middle;
+  }
+}

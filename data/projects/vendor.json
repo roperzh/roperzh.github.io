@@ -1,0 +1,57 @@
+[{
+  "title": "Facebook Stories",
+  "langs": ["HTML", "CSS", "JS"],
+  "img": "/build/img/projects/stories.jpg",
+  "url": "https://www.facebookstories.com/",
+  "owner": "",
+  "description": ""
+}, {
+  "title": "Aparium",
+  "langs": ["PHP", "HTML", "CSS", "JS"],
+  "img": "/build/img/projects/aparium.jpg",
+  "url": "http://aparium.com/",
+  "owner": "Area 17",
+  "description": ""
+}, {
+  "title": "NY Media Center",
+  "langs": ["HTML", "CSS"],
+  "img": "/build/img/projects/mediacenter.jpg",
+  "url": "http://nymediacenter.com/",
+  "owner": "Area 17",
+  "description": "Mantenience and bugfixing"
+},{
+  "title": "The Hill",
+  "langs": ["HTML", "CSS", "JS"],
+  "img": "/build/img/projects/thehill.jpg",
+  "url": "http://mobile.thehill.com/",
+  "owner": "Area 17",
+  "description": ""
+}, {
+  "title": "Perrier Loves Miami",
+  "langs": ["Ruby on Rails", "JS"],
+  "img": "/build/img/projects/perrier.jpg",
+  "url": "http://www.perrierlovesmiami.com/",
+  "owner": "Moxie",
+  "description": ""
+}, {
+  "title": "BagIQ",
+  "langs": ["HTML", "CSS", "JS"],
+  "img": "/build/img/projects/bagiq.jpg",
+  "url": "https://bagiq.com/",
+  "owner": "BagIQ",
+  "description": ""
+}, {
+  "title": "TableHopping",
+  "langs": ["Ruby on Rails", "JS"],
+  "img": "/build/img/projects/tablehopping.jpg",
+  "url": "http://tablehoppingny.com/",
+  "owner": "",
+  "description": ""
+}, {
+  "title": "CYOA",
+  "langs": ["HTML", "CSS", "JS"],
+  "img": "/build/img/projects/cyoa.jpg",
+  "url": "http://winning.tablehoppingny.com/",
+  "owner": "",
+  "description": ""
+}]

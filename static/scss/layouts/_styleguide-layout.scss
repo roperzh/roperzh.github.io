@@ -1,0 +1,14 @@
+// -------------------------------------------
+//   Styleguide
+// -------------------------------------------
+
+.styleguide-layout {
+  div > section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    > h4 {
+      margin-bottom: 15px;
+    }
+  }
+}

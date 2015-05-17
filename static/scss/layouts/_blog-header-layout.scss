@@ -1,0 +1,35 @@
+// -------------------------------------------
+//   Blog Header
+// -------------------------------------------
+
+.blog-header-layout {
+  height: $header-height + 85px;
+
+  border-bottom: 2px solid $black;
+
+  text-align: center;
+
+  .logo {
+    width: 300px;
+    height: 95px;
+  }
+
+  &.blog-header-layout-compressed {
+    height: $header-height;
+    margin-bottom: 40px;
+
+    .logo {
+      width: 190px;
+      height: 45px;
+
+      float: left;
+    }
+
+    @include breakpoint-for(small) {
+      .logo {
+        float: none;
+        margin: 0 auto;
+      }
+    }
+  }
+}

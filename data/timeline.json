@@ -1,0 +1,42 @@
+[{
+  "title": "Education",
+  "items": [{
+    "title": "Universidad Nacional de Tucumán",
+    "description": "Computer Ingenieer"
+  }, {
+    "title": "CEF - Centro Educativo Franciscano",
+    "description": "Bachelor's degree"
+  }]
+}, {
+  "title": "Experience",
+  "items": [{
+    "title": "Front End Developer at Area 17",
+    "description": ""
+  }, {
+    "title": "Freelance Full Stack Web Developer",
+    "description": ""
+  }, {
+    "title": "Full Stack Web Developer at (in)signia",
+    "description": "Web Application Development with Ruby on Rails and Sinatra on the backend, Backbone + Marionette on the frontend."
+  }]
+}, {
+  "title": "Career Highlights",
+  "items": [{
+    "title": "Speaker at Ruby Meetups Tucumán"
+  }, {
+    "title": "Volunteer at Mozilla Hispano"
+  }, {
+    "title": "Open Source Contributor"
+  }]
+}, {
+  "title": "Skills",
+  "items": [{
+    "title": "HTML / CSS / JavaScript"
+  }, {
+    "title": "Ruby on Rails"
+  }, {
+    "title": "Wordpress"
+  }, {
+    "title": "Go"
+  }]
+}]
