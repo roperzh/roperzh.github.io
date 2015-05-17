@@ -21,8 +21,7 @@ module.exports = function(grunt) {
       all: [
         'Gruntfile.js',
         'static/js/*.js',
-        '!static/build/js/scripts.js',
-        '!static/**/*.min.*'
+        '!static/build/js/main.js'
       ]
     },
     sass: {
@@ -46,13 +45,13 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [jsFileList],
-        dest: 'static/build/js/scripts.js',
+        dest: 'static/build/js/main.js',
       },
     },
     uglify: {
       dist: {
         files: {
-          'static/build/js/scripts.min.js': [jsFileList]
+          'static/build/js/main.js': [jsFileList]
         }
       }
     },
@@ -63,7 +62,7 @@ module.exports = function(grunt) {
       },
       build: {
         files: {
-          'static/build/css/main.min.css': ['static/build/css/main.css']
+          'static/build/css/main.css': ['static/build/css/main.css']
         }
       }
     },
@@ -80,17 +79,17 @@ module.exports = function(grunt) {
         src: 'static/build/css/main.css'
       },
       build: {
-        src: 'static/build/css/main.min.css'
+        src: 'static/build/css/main.css'
       }
     },
     modernizr: {
       build: {
         devFile: 'static/vendor/modernizr/modernizr.js',
-        outputFile: 'static/js/vendor/modernizr.min.js',
+        outputFile: 'static/js/vendor/modernizr.js',
         files: {
           'src': [
-            ['static/build/js/scripts.min.js'],
-            ['static/build/css/main.min.css']
+            ['static/build/js/main.js'],
+            ['static/build/css/main.css']
           ]
         },
         extra: {
