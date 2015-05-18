@@ -14,6 +14,21 @@ module.exports = function(grunt) {
   ];
 
   grunt.initConfig({
+    critical: {
+      build: {
+        options: {
+          base: './public',
+          css: [
+            'public/build/css/main.css'
+          ],
+          width: 320,
+          height: 480,
+          minify: true
+        },
+        src: 'public/index.html',
+        dest: 'public/index.html'
+      }
+    },
     jshint: {
       options: {
         jshintrc: '.jshintrc'
@@ -171,6 +186,7 @@ module.exports = function(grunt) {
     'sass:build',
     'autoprefixer:build',
     'cssmin:build',
+    'critical:build',
     'uglify',
   ]);
 };
