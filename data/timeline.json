@@ -11,32 +11,44 @@
   "title": "Experience",
   "items": [{
     "title": "Front End Developer at Area 17",
+    "timeLapse": "2014 - 2015",
     "description": ""
   }, {
     "title": "Freelance Full Stack Web Developer",
-    "description": ""
+    "timeLapse": "2014",
+    "description": "Web application development with Ruby on Rails + Angular.js and Wordpress"
   }, {
     "title": "Full Stack Web Developer at (in)signia",
-    "description": "Web Application Development with Ruby on Rails and Sinatra on the backend, Backbone + Marionette on the frontend."
+    "timeLapse": "2012 - 2013",
+    "description": "Web Application Development with Ruby on Rails / Sinatra and Backbone + Marionette."
   }]
 }, {
   "title": "Career Highlights",
   "items": [{
-    "title": "Speaker at Ruby Meetups Tucumán"
+    "title": "Speaker at Ruby Meetups Tucumán",
+    "timeLapse": "2014",
+    "description": "“Rack and Middlewares” - presentation for the mensual meeting of the Ruby community in Tucumán, Argentina - <a href='https://github.com/roperzh/rack-ruby-meetup' target='_blank'>Link</a> "
   }, {
-    "title": "Volunteer at Mozilla Hispano"
-  }, {
-    "title": "Open Source Contributor"
+    "title": "Open Source Contributor",
+    "timeLapse": "2013 - ∞",
+    "description": "Contributor in multiple open source projects."
   }]
 }, {
   "title": "Skills",
   "items": [{
-    "title": "HTML / CSS / JavaScript"
+    "title": "HTML / CSS / JavaScript",
+    "description": ""
   }, {
-    "title": "Ruby on Rails"
+    "title": "Ruby",
+    "description": ""
   }, {
-    "title": "Wordpress"
+    "title": "Sass / LESS",
+    "description": ""
   }, {
-    "title": "Go"
+    "title": "Git / SVN",
+    "description": ""
+  }, {
+    "title": "Node.js",
+    "description": ""
   }]
 }]

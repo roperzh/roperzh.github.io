@@ -25,7 +25,8 @@
             {{ range .items }}
               <li>
                 <h4 class="content-title">{{ .title }}</h4>
-                <p>{{ .description }}</p>
+                {{ if .timeLapse }}<span class="time-lapse">{{ .timeLapse }}</span>{{ end }}
+                <p>{{ .description | safeHtml }}</p>
               </li>
             {{ end }}
 
