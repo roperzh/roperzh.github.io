@@ -3,3 +3,4 @@ static/build
 public/
 npm-debug.log
 deploy.sh
+.DS_Store
