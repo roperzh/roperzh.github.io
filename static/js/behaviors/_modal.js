@@ -24,6 +24,7 @@ Roperzh.Behaviors.Modal = Essential.Behavior.extend({
 
     setTimeout(function() {
       this.el.classList.add('open');
+      this.el.setAttribute('aria-hidden', false);
       this.emit({ channel: 'modal:opened' });
     }.bind(this));
 
@@ -32,6 +33,7 @@ Roperzh.Behaviors.Modal = Essential.Behavior.extend({
   close: function() {
     this.setOverflow('initial');
     this.el.classList.remove('open');
+    this.el.setAttribute('aria-hidden', true);
     this.emit({ channel: 'modal:closed' });
 
     setTimeout(function() {

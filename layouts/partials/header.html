@@ -35,14 +35,11 @@
       <header class="header-banner-layout grid" role="banner">
         <section class="two columns">
           {{ if eq .Url "/" | not }}
-            <a href="#" class="navicon navicon-animated" data-behavior="modal-trigger">
+            <a href="#" class="navicon navicon-animated" data-behavior="modal-trigger" aria-controls="menu" aria-label="Toggle navigation">
               <span></span>
               <span></span>
               <span></span>
             </a>
-            <section class="hide-small" style="display: none">
-                {{ partial "horizontal-navigation.html" . }}
-            </section>
           {{ end }}
         </section>
 
