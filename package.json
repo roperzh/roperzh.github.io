@@ -4,7 +4,7 @@
   "description": "roperzh.com",
   "main": "index.js",
   "scripts": {
-    "deploy": "grunt build && hugo && ./deploy.sh"
+    "deploy": "hugo && grunt build && ./deploy.sh"
   },
   "author": "Roberto Dip",
   "license": "MIT",
