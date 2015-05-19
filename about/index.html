@@ -42,24 +42,11 @@
       <header class="header-banner-layout grid" role="banner">
         <section class="two columns">
           
-            <a href="#" class="navicon navicon-animated" data-behavior="modal-trigger">
+            <a href="#" class="navicon navicon-animated" data-behavior="modal-trigger" aria-controls="menu" aria-label="Toggle navigation">
               <span></span>
               <span></span>
               <span></span>
             </a>
-            <section class="hide-small" style="display: none">
-                <ul class="horizontal-navigation">
-  
-    <li><a href="/">Home</a></li>
-  
-
-  <li><a href="/about/" class="active">About</a></li>
-  <li><a href="/work/" class="">Work</a></li>
-
-  
-</ul>
-
-            </section>
           
         </section>
 
@@ -201,8 +188,8 @@
 
     </main>
 
-    <div class="modal" style="display: none;" data-behavior="modal">
-      <ul class="modal-content">
+    <div id="menu" class="modal" style="display: none;" data-behavior="modal" aria-hidden="true" role="dialog">
+      <ul class="modal-content" role="navigation">
         <li><a href="/" class="heading heading-one heading-extra-padding">Home</a></li>
         <li><a href="/about/" class="heading heading-one heading-extra-padding">About</a></li>
         <li><a href="/work/" class="heading heading-one heading-extra-padding">Work</a></li>

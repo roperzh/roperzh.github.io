@@ -42,24 +42,11 @@
       <header class="header-banner-layout grid" role="banner">
         <section class="two columns">
           
-            <a href="#" class="navicon navicon-animated" data-behavior="modal-trigger">
+            <a href="#" class="navicon navicon-animated" data-behavior="modal-trigger" aria-controls="menu" aria-label="Toggle navigation">
               <span></span>
               <span></span>
               <span></span>
             </a>
-            <section class="hide-small" style="display: none">
-                <ul class="horizontal-navigation">
-  
-    <li><a href="/">Home</a></li>
-  
-
-  <li><a href="/about/" class="">About</a></li>
-  <li><a href="/work/" class="active">Work</a></li>
-
-  
-</ul>
-
-            </section>
           
         </section>
 
@@ -104,7 +91,7 @@
   <p>.  </p>
 
   <a href="https://www.facebookstories.com/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -136,7 +123,7 @@
   <p>.   - Area 17 </p>
 
   <a href="http://aparium.com/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -164,7 +151,7 @@
   <p>Mantenience and bugfixing.   - Area 17 </p>
 
   <a href="http://nymediacenter.com/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -194,7 +181,7 @@
   <p>.   - Area 17 </p>
 
   <a href="http://mobile.thehill.com/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -222,7 +209,7 @@
   <p>.   - Moxie </p>
 
   <a href="http://www.perrierlovesmiami.com/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -252,7 +239,7 @@
   <p>.   - BagIQ </p>
 
   <a href="https://bagiq.com/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -280,7 +267,7 @@
   <p>.  </p>
 
   <a href="http://tablehoppingny.com/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -310,7 +297,7 @@
   <p>.  </p>
 
   <a href="http://winning.tablehoppingny.com/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -338,7 +325,7 @@
   <p>Modular and lightweight JavaScript micro framework for the browser.   - Personal project </p>
 
   <a href="http://roperzh.github.io/essential.js/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -358,7 +345,7 @@
   <p>Heroku buildpack for Hugo, the static site generator.   - Personal project </p>
 
   <a href="https://github.com/roperzh/heroku-buildpack-hugo" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -388,7 +375,7 @@
   <p>OG tag inspector written in Go.   - Personal project </p>
 
   <a href="http://ogg.herokuapp.com/" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -414,7 +401,7 @@
   <p>Minimalistic and semantic grid system.   - Personal project </p>
 
   <a href="https://github.com/roperzh/nitty-grid" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -438,7 +425,7 @@
   <p>Simple blog theme for Hugo, the static site generator.   - Personal project </p>
 
   <a href="https://github.com/roperzh/tinyce-hugo-theme" target="_blank">
-    <i class="icon-link" data-grunticon-embed></i>
+    <span class="icon-link" data-grunticon-embed role="presentation"></span>
     Visit
   </a>
 </li>
@@ -451,8 +438,8 @@
 
     </main>
 
-    <div class="modal" style="display: none;" data-behavior="modal">
-      <ul class="modal-content">
+    <div id="menu" class="modal" style="display: none;" data-behavior="modal" aria-hidden="true" role="dialog">
+      <ul class="modal-content" role="navigation">
         <li><a href="/" class="heading heading-one heading-extra-padding">Home</a></li>
         <li><a href="/about/" class="heading heading-one heading-extra-padding">About</a></li>
         <li><a href="/work/" class="heading heading-one heading-extra-padding">Work</a></li>
