@@ -4,6 +4,8 @@
 
 Roperzh.Services.loadPage = function(ctx) {
   var main = document.querySelector('main[role="main"]');
+  var startTime = new Date().getTime();
+
   main.style.opacity = 0;
 
   Essential.Behavior.emit({
@@ -14,6 +16,9 @@ Roperzh.Services.loadPage = function(ctx) {
   fetch(ctx.path).then(function(response) {
     response.text().then(function(rawText) {
       var auxElement = document.createElement('html');
+      var endTime;
+      var timeSpent;
+
       auxElement.innerHTML = rawText;
 
       setTimeout(function() {
@@ -29,7 +34,14 @@ Roperzh.Services.loadPage = function(ctx) {
         Essential.loadBehaviors({
           context: main,
           application: Roperzh.Behaviors
-        })
+        });
+
+        endTime = new Date().getTime();
+        timeSpent = endTime - startTime;
+
+        ga('send', 'pageview');
+        ga('send', 'timing', 'PageChange', ctx.path, timeSpent);
+
       }, 1000);
     });
   });
