@@ -3,8 +3,8 @@
     <li><a href="/">Home</a></li>
   {{ end }}
 
-  <li><a href="/about/" class="{{ if eq .Title "About" }}active{{ end }}">About</a></li>
-  <li><a href="/work/" class="{{ if eq .Title "Work" }}active{{ end }}">Work</a></li>
+  <li><a href="/about/" class="{{ if eq .Title "about" }}active{{ end }}">About</a></li>
+  <li><a href="/work/" class="{{ if eq .Title "work" }}active{{ end }}">Work</a></li>
 
   {{ if eq .Url "/" }}
     <li><a href="http://journal.roperzh.com" target="_blank">Journal</a></li>
