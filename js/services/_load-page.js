@@ -10,7 +10,7 @@ Roperzh.Services.loadPage = function(ctx) {
 
   Essential.Behavior.emit({
     context: document,
-    channel: "loadingBar:show"
+    channel: 'loadingBar:show'
   });
 
   fetch(ctx.path).then(function(response) {
@@ -24,12 +24,14 @@ Roperzh.Services.loadPage = function(ctx) {
       setTimeout(function() {
         Essential.Behavior.emit({
           context: document,
-          channel: "loadingBar:hide"
+          channel: 'loadingBar:hide'
         });
 
         main.innerHTML = auxElement.querySelector('main[role="main"]').innerHTML;
         main.style.opacity = 1;
         grunticon.svgLoadedCallback();
+
+        document.title = 'roperzh.com | ' + ctx.path.replace(/\//g, '');
 
         Essential.loadBehaviors({
           context: main,
