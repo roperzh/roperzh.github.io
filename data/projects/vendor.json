@@ -4,35 +4,35 @@
   "img": "/build/img/projects/stories.jpg",
   "url": "https://www.facebookstories.com/",
   "owner": "",
-  "description": "Maintenance and feature development of Facebook Stories, a website powered by Ruby on Rails."
+  "description": "Maintenance and feature development of Facebook Stories. Website powered by Ruby on Rails."
 }, {
   "title": "Aparium",
   "langs": ["PHP", "HTML", "CSS", "JS"],
   "img": "/build/img/projects/aparium.jpg",
   "url": "http://aparium.com/",
   "owner": "Area 17",
-  "description": "Full development of the website, powered by Wordpress and built in vanilla JavaScript."
+  "description": " Website developed from the ground up. Powered by Wordpress and built in vanilla JavaScript."
 }, {
   "title": "NY Media Center",
   "langs": ["HTML", "CSS"],
   "img": "/build/img/projects/mediacenter.jpg",
   "url": "http://nymediacenter.com/",
   "owner": "Area 17",
-  "description": "Maintenance and bugfixing, website powered by Wordpress."
+  "description": "Maintenance and bugfixing. Website powered by Wordpress."
 },{
   "title": "The Hill",
   "langs": ["HTML", "CSS", "JS"],
   "img": "/build/img/projects/thehill.jpg",
   "url": "http://mobile.thehill.com/",
   "owner": "Area 17",
-  "description": "Development of the mobile website for the political news portal."
+  "description": "Development of a mobile website for a political news portal."
 }, {
   "title": "Perrier Loves Miami",
   "langs": ["Ruby on Rails", "JS"],
   "img": "/build/img/projects/perrier.jpg",
   "url": "http://www.perrierlovesmiami.com/",
   "owner": "Moxie",
-  "description": "Full development of the website used to promote the Miami Art Week, powered by Ruby on Rails."
+  "description": "Full development of a website used to promote Miami Art Week, powered by Ruby on Rails"
 }, {
   "title": "BagIQ",
   "langs": ["HTML", "CSS", "JS"],

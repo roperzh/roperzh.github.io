@@ -2,7 +2,7 @@
   "title": "Education",
   "items": [{
     "title": "Universidad Nacional de Tucumán",
-    "description": "Computer Ingenieer"
+    "description": "Computer Engineer"
   }, {
     "title": "CEF - Centro Educativo Franciscano",
     "description": "Bachelor's degree"
@@ -16,22 +16,22 @@
   }, {
     "title": "Freelance Full Stack Web Developer",
     "timeLapse": "2014",
-    "description": "Web application development with Ruby on Rails + Angular.js and Wordpress"
+    "description": "Web applications development with Ruby on Rails + Angular.js and Wordpress"
   }, {
     "title": "Full Stack Web Developer at (in)signia",
     "timeLapse": "2012 - 2013",
-    "description": "Web Application Development with Ruby on Rails / Sinatra and Backbone + Marionette."
+    "description": "Web applications development with Ruby on Rails / Sinatra and Backbone + Marionette."
   }]
 }, {
   "title": "Career Highlights",
   "items": [{
-    "title": "Speaker at Ruby Meetups Tucumán",
+    "title": "Speaker at Ruby Meetups held in Tucumán",
     "timeLapse": "2014",
-    "description": "“Rack and Middlewares” - presentation for the mensual meeting of the Ruby community in Tucumán, Argentina - <a href='https://github.com/roperzh/rack-ruby-meetup' target='_blank'>Link</a> "
+    "description": "“Rack and Middlewares” - Presentation at the monthly meeting of the Ruby community in Tucumán, Argentina - <a href='https://github.com/roperzh/rack-ruby-meetup' target='_blank'>Link</a> "
   }, {
     "title": "Open Source Contributor",
     "timeLapse": "2013 - ∞",
-    "description": "Contributor in multiple open source projects."
+    "description": "Contributor to multiple open-source projects."
   }]
 }, {
   "title": "Skills",
