@@ -175,13 +175,6 @@ module.exports = function(grunt) {
     "watch"
   ]);
 
-  grunt.registerTask('dev', [
-    'jshint',
-    'sass',
-    'autoprefixer:dev',
-    'concat'
-  ]);
-
   grunt.registerTask('build', [
     'sass:build',
     'autoprefixer:build',
