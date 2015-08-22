@@ -32,7 +32,7 @@
               <li>
                 <h4 class="content-title">{{ .title }}</h4>
                 {{ if .timeLapse }}<span class="time-lapse">{{ .timeLapse }}</span>{{ end }}
-                <p>{{ .description | safeHtml }}</p>
+                <p>{{ .description | safeHTML }}</p>
               </li>
             {{ end }}
 
