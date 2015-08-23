@@ -31,10 +31,10 @@
     <div class="loading-bar" data-behavior="loading-bar"></div>
 
     <main role="main">
-      {{ if eq .Url "404.html" | not }}
+      {{ if eq .URL "404.html" | not }}
       <header class="header-banner-layout grid" role="banner">
         <section class="two columns">
-          {{ if eq .Url "/" | not }}
+          {{ if eq .URL "/" | not }}
             <a href="#" class="navicon navicon-animated" data-behavior="modal-trigger" aria-controls="menu" aria-label="Toggle navigation">
               <span></span>
               <span></span>

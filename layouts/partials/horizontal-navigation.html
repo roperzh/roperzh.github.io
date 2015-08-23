@@ -1,12 +1,12 @@
 <ul class="horizontal-navigation">
-  {{ if eq .Url "/" | not }}
+  {{ if eq .URL "/" | not }}
     <li><a href="/">Home</a></li>
   {{ end }}
 
   <li><a href="/about/" class="{{ if eq .Title "about" }}active{{ end }}">About</a></li>
   <li><a href="/work/" class="{{ if eq .Title "work" }}active{{ end }}">Work</a></li>
 
-  {{ if eq .Url "/" }}
+  {{ if eq .URL "/" }}
     <!-- <li><a href="http://journal.roperzh.com" target="_blank">Journal</a></li> -->
   {{ end }}
 </ul>
