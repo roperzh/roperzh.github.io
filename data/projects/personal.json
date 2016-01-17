@@ -1,4 +1,11 @@
 [{
+  "title": "Jroff / Grapse",
+  "langs": ["JS"],
+  "img": "/build/img/projects/jroff.jpg",
+  "url": "http://www.roperzh.com/grapse/",
+  "owner": "Personal project",
+  "description": "Online man page parser written in JavaScript"
+},{
   "title": "Essential.js",
   "langs": ["JS"],
   "img": "/build/img/projects/essential.png",
