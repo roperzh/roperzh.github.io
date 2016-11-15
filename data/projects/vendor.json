@@ -1,4 +1,20 @@
 [{
+    "title": "AT&T Starter Kit",
+    "langs": ["HTML", "CSS", "JS"],
+    "img": "/build/img/projects/iot.jpg",
+    "url": "https://starterkit.att.com/",
+    "owner": "Citrusbyte",
+    "description": "Maintenance and feature development using React.js and ES6"
+  },
+  {
+    "title": "AT&T M2X",
+    "langs": ["HTML", "CSS", "JS"],
+    "img": "/build/img/projects/m2x.jpg",
+    "url": "http://m2x.att.com/",
+    "owner": "Citrusbyte",
+    "description": "Maintenance and feature development using React.js"
+  },
+  {
   "title": "Facebook Stories",
   "langs": ["HTML", "CSS", "JS"],
   "img": "/build/img/projects/stories.jpg",
