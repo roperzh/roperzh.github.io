@@ -1,5 +1,8 @@
 # roperzh.com
 
+:warning: this repo is no longer maintained, check out my new site at https://github.com/roperzh/roperzh.com
+
+
 This is the data for my personal website, proudly powered by [Hugo](http://hugo.spf13.com/)
 
 ## Dependencies
