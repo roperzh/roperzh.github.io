@@ -187,9 +187,9 @@ module.exports = function(grunt) {
     'sass:build',
     'autoprefixer:build',
     'cssmin:build',
-    'critical:home',
-    'critical:about',
-    'critical:work',
+    // 'critical:home',
+    // 'critical:about',
+    // 'critical:work',
     'uglify',
   ]);
 };
